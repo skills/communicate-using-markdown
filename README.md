@@ -34,7 +34,7 @@ GitHub is about more than code. It’s a platform for software collaboration—a
 - **What you'll learn**: Use Markdown to add _lists_, _images_, and _links_ in a comment or text file
 - **What you'll build**: We'll update a plain text file and add Markdown formatting, and you can use this file to start your own GitHub pages site.
 - **Prerequisites**: In this course you will work with pull requests as well as edit files. If these things aren't familiar to you, we recommend you take the [Introduction to GitHub](https://github.com/githublearn/introduction-to-github) course, first!
-- **How long**: This course is ? steps and takes less than one hour.
+- **How long**: This course is 5 steps and takes less than one hour.
 
 </details>
 
@@ -47,7 +47,7 @@ GitHub is about more than code. It’s a platform for software collaboration—a
 -->
 
 <details id=1>
-<summary><strong>:evergreen_tree: Step 1: Make a task list</strong></summary>
+<summary><strong>:ballot_box_with_check: Step 1: Make a task list</strong></summary>
 
 ### :wave: Welcome to "Communicating using Markdown"!
 
@@ -102,7 +102,7 @@ GitHub Actions went ahead and made a branch and a pull request for you. So you'l
 -->
 
 <details id=2>
-<summary><strong>:evergreen_tree: Step 2: Add headers</strong></summary>
+<summary><strong>:smiley: Step 2: Add headers</strong></summary>
 
 ### Nicely done friend!
 
@@ -141,7 +141,7 @@ A header is a larger bit of text at the beginning of a section. There are six si
 -->
 
 <details id=3>
-<summary><strong>:evergreen_tree: Step 3: Add an image</strong></summary>
+<summary><strong>:milky_way: Step 3: Add an image</strong></summary>
 
 ### Great job adding headers to the file :sparkles:
 
@@ -155,7 +155,7 @@ Let's add an image. Include descriptive text in the square brackets. This text i
 
 #### How it looks
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+<img alt="Image of Yaktocat" src=https://octodex.github.com/images/yaktocat.png width=400>
 
 ### :keyboard: Activity: Adding an image
 
@@ -173,7 +173,7 @@ Let's add an image. Include descriptive text in the square brackets. This text i
 -->
 
 <details id=4>
-<summary><strong>:evergreen_tree: Step 4: Add a code example</strong></summary>
+<summary><strong>:robot: Step 4: Add a code example</strong></summary>
 
 ### Great job an image to the file :sparkles:
 
@@ -209,12 +209,14 @@ Initialized empty Git repository in /Users/githublearn/Projects/recipe-repositor
 -->
 
 <details id=4>
-<summary><strong>:evergreen_tree: Step 5: Merge your pull request</strong></summary>
+<summary><strong>:dancer: Step 5: Merge your pull request</strong></summary>
 
 ### Great job adding a code example to the file :sparkles:
 
 You can now [merge](https://help.github.com/articles/github-glossary/#merge) your pull request!
 
+### :keyboard: Activity: Merge your pull request 
+  
 1. Click **Merge pull request**
 1. Wait about 20 seconds then refresh this page for the next step
 
