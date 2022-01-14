@@ -1,23 +1,24 @@
-name: Step z, ZZZ
+name: Step 4, Make a task list
 
-# This step triggers after z
-# This step sets STEP to z
-# This step closes <details id=z> and opens <details id=z>
+# This step triggers after a commit on the branch `start-markdown`
+# This step sets STEP to 5
+# This step closes <details id=4> and opens <details id=5>
 
-# This will run every time we create push a commit to `main`
+# This will run every time we create push a commit to `start-markdown`
 # Reference https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
 on:
   workflow_dispatch:
-  ZZZZ
+  push:
+    branches:
+      - start-markdown
 
 jobs:
-  on_ZZZ:
-    name: ZZZ
+  on_commit_start_markdown_task_list:
+    name: On commit, start markdown, task list
 
     # We will only run this action when:
     # 1. This repository isn't the template repository
-    # 2. The STEP is currently Z (see update-step.sh)
-    # Z
+    # 2. The STEP is currently 4 (see update-step.sh)
     # Reference https://docs.github.com/en/actions/learn-github-actions/contexts
     # Reference https://docs.github.com/en/actions/learn-github-actions/expressions
     if: ${{ github.repository_owner != 'githublearn' }}
@@ -32,15 +33,15 @@ jobs:
         with:
           fetch-depth: 0 # Let's get all the branches
 
-      # Update README to close <details id=Z>
-      # and open <details id=Z>
-      # and set STEP to 'Z'
-      - name: Update to step Z
+      # TBD Make sure there is at least one task list item in the file
+
+      # Update README to close <details id=4>
+      # and open <details id=5>
+      # and set STEP to '5'
+      - name: Update to step 5
         run: ./.github/script/update-step.sh
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          FROM_STEP: Z
-          TO_STEP: Z
+          FROM_STEP: 4
+          TO_STEP: 5
           BRANCH_NAME: start-markdown
-
-    # TBD ZZZ

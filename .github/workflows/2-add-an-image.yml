@@ -1,23 +1,24 @@
-name: Step z, ZZZ
+name: Step 2, Add an image
 
-# This step triggers after z
-# This step sets STEP to z
-# This step closes <details id=z> and opens <details id=z>
+# This step triggers after a commit on the branch `start-markdown`
+# This step sets STEP to 3
+# This step closes <details id=2> and opens <details id=3>
 
-# This will run every time we create push a commit to `main`
+# This will run every time we create push a commit to `start-markdown`
 # Reference https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
 on:
   workflow_dispatch:
-  ZZZZ
+  push:
+    branches:
+      - start-markdown
 
 jobs:
-  on_ZZZ:
-    name: ZZZ
+  on_commit_start_markdown_image:
+    name: On commit, start markdown, image
 
     # We will only run this action when:
     # 1. This repository isn't the template repository
-    # 2. The STEP is currently Z (see update-step.sh)
-    # Z
+    # 2. The STEP is currently 2 (see update-step.sh)
     # Reference https://docs.github.com/en/actions/learn-github-actions/contexts
     # Reference https://docs.github.com/en/actions/learn-github-actions/expressions
     if: ${{ github.repository_owner != 'githublearn' }}
@@ -32,15 +33,15 @@ jobs:
         with:
           fetch-depth: 0 # Let's get all the branches
 
-      # Update README to close <details id=Z>
-      # and open <details id=Z>
-      # and set STEP to 'Z'
-      - name: Update to step Z
+      # TBD Check that there is at least one image in the markdown file
+
+      # Update README to close <details id=2>
+      # and open <details id=3>
+      # and set STEP to '3'
+      - name: Update to step 3
         run: ./.github/script/update-step.sh
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          FROM_STEP: Z
-          TO_STEP: Z
+          FROM_STEP: 2
+          TO_STEP: 3
           BRANCH_NAME: start-markdown
-
-    # TBD ZZZ
