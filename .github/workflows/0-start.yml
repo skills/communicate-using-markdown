@@ -58,7 +58,7 @@ jobs:
           git config user.email github-actions@github.com
           git add example.md
           git commit -m "Create example.md file"
-          git push
+          git push --set-upstream origin start-markdown
 
           echo "Make a pull request"
           # Reference https://cli.github.com/manual/gh_pr_create
