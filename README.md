@@ -47,7 +47,7 @@ GitHub is about more than code. It’s a platform for software collaboration—a
 -->
 
 <details id=1>
-<summary><strong>:ballot_box_with_check: Step 1: Make a task list</strong></summary>
+<summary><strong>:smiley: Step 1: Add headers</strong></summary>
 
 ### :wave: Welcome to "Communicating using Markdown"!
 
@@ -57,56 +57,7 @@ GitHub is about more than code. It’s a platform for software collaboration—a
 - Files with the `.md` or `.markdown` extension
 - Sharing snippets of text in [Gists](https://help.github.com/en/articles/about-gists)
 
-**What is a _task list_**: A task list creates checkboxes to check off. They're very useful for tracking issues and pull requests. If you include a task list in the body of an issue or pull request, you'll see a progress indicator in your issue list. The syntax for task lists is very specific. Be sure to include the spaces where required, or else they won't render.
-
-#### Example
-
-```
-- [x] List syntax is required.
-- [x] This item is completed.
-- [ ] This item is not complete.
-```
-
-#### How it looks
-
-- [x] List syntax is required.
-- [x] This item is completed.
-- [ ] This item is not complete.
-
-### :keyboard: Activity: Add a task list
-
-GitHub Actions went ahead and made a branch and a pull request for you. So you'll need to add to the file we've created in the branch and we will check your work as you work through this course!
-
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab
-1. Open the **pull requests** tab
-1. Open the pull request we made for you
-1. Open the _files_ tab
-1. Go to _edit this file_
-1. Use Markdown to create a task list of todo items. Here is an example:
-   ```
-   - [ ] Turn on GitHub Pages
-   - [ ] Outline my portfolio
-   - [ ] Introduce myself to the world
-   ```
-   Remember, a task list starts with the syntax `- [ ] ` and then the task list item. The formatting is specific!
-1. Use the **Preview** tab to check your markdown formatting.
-1. Commit the changes to the file
-1. Wait about 20 seconds then refresh this page for the next step
-
-</details>
-
-<!--
-  <<< Author notes: Step 2 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
--->
-
-<details id=2>
-<summary><strong>:smiley: Step 2: Add headers</strong></summary>
-
-### Nicely done friend!
-
-A header is a larger bit of text at the beginning of a section. There are six sizes.
+**What is a _header_**: A header is a larger bit of text at the beginning of a section. There are six sizes.
 
 #### Example
 
@@ -124,6 +75,9 @@ A header is a larger bit of text at the beginning of a section. There are six si
 
 ### :keyboard: Activity: Edit your file with headers
 
+1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab
+1. Open the **pull requests** tab
+1. Open the pull request we made for you
 1. In this pull request, click the **Files changed** tab.
 1. Select "Edit file" from the three dotted **...** menu in the upper right corner of the file view.
 1. On the **Edit file** tab, add a `#`, followed by a **space**, before the content to make it an H1 Header. You can add more headers, using one to six `#` characters followed by a **space**.
@@ -135,13 +89,13 @@ A header is a larger bit of text at the beginning of a section. There are six si
 </details>
 
 <!--
-  <<< Author notes: Step 3 >>>
+  <<< Author notes: Step 2 >>>
   Start this step by acknowledging the previous step.
   Define terms and link to docs.github.com.
 -->
 
-<details id=3>
-<summary><strong>:milky_way: Step 3: Add an image</strong></summary>
+<details id=2>
+<summary><strong>:milky_way: Step 2: Add an image</strong></summary>
 
 ### Great job adding headers to the file :sparkles:
 
@@ -161,21 +115,22 @@ Let's add an image. Include descriptive text in the square brackets. This text i
 
 1. As you did before, edit the file in this pull request.
 1. In the file, add the correct Markdown for your image of choice. Don't forget to include alt-text!
+1. Use the **Preview** tab to check your markdown formatting
 1. Commit your changes.
 1. Wait about 20 seconds then refresh this page for the next step
 
 </details>
 
 <!--
-  <<< Author notes: Step 4 >>>
+  <<< Author notes: Step 3 >>>
   Start this step by acknowledging the previous step.
   Define terms and link to docs.github.com.
 -->
 
-<details id=4>
-<summary><strong>:robot: Step 4: Add a code example</strong></summary>
+<details id=3>
+<summary><strong>:robot: Step 3: Add a code example</strong></summary>
 
-### Great job an image to the file :sparkles:
+### Great job adding an image to the file :sparkles:
 
 In addition to code blocks, some code blocks should be rendered differently depending on the language, such as Javascript or command-line text.
 
@@ -197,7 +152,53 @@ Initialized empty Git repository in /Users/githublearn/Projects/recipe-repositor
 
 1. As you did before, edit the file in this pull request
 1. In the file, add the correct Markdown for a code example of your choice
+1. Use the **Preview** tab to check your markdown formatting
 1. Commit your changes
+1. Wait about 20 seconds then refresh this page for the next step
+
+</details>
+
+<!--
+  <<< Author notes: Step 4 >>>
+  Start this step by acknowledging the previous step.
+  Define terms and link to docs.github.com.
+-->
+
+<details id=4>
+<summary><strong>:ballot_box_with_check: Step 4: Make a task list</strong></summary>
+
+### Great job adding a code example to the file :sparkles:
+
+**What is a _task list_**: A task list creates checkboxes to check off. They're very useful for tracking issues and pull requests. If you include a task list in the body of an issue or pull request, you'll see a progress indicator in your issue list. The syntax for task lists is very specific. Be sure to include the spaces where required, or else they won't render.
+
+#### Example
+
+```
+- [x] List syntax is required.
+- [x] This item is completed.
+- [ ] This item is not complete.
+```
+
+#### How it looks
+
+- [x] List syntax is required.
+- [x] This item is completed.
+- [ ] This item is not complete.
+
+### :keyboard: Activity: Add a task list
+
+GitHub Actions went ahead and made a branch and a pull request for you. So you'll need to add to the file we've created in the branch and we will check your work as you work through this course!
+
+1. Return to your pull request
+1. Use Markdown to create a task list of todo items. Here is an example:
+   ```
+   - [ ] Turn on GitHub Pages
+   - [ ] Outline my portfolio
+   - [ ] Introduce myself to the world
+   ```
+   Remember, a task list starts with the syntax `- [ ] ` and then the task list item. The formatting is specific!
+1. Use the **Preview** tab to check your markdown formatting
+1. Commit the changes to the file
 1. Wait about 20 seconds then refresh this page for the next step
 
 </details>
@@ -208,15 +209,15 @@ Initialized empty Git repository in /Users/githublearn/Projects/recipe-repositor
   Define terms and link to docs.github.com.
 -->
 
-<details id=4>
+<details id=5>
 <summary><strong>:dancer: Step 5: Merge your pull request</strong></summary>
 
-### Great job adding a code example to the file :sparkles:
+### Great job adding a task list to the file :sparkles:
 
 You can now [merge](https://help.github.com/articles/github-glossary/#merge) your pull request!
 
-### :keyboard: Activity: Merge your pull request 
-  
+### :keyboard: Activity: Merge your pull request
+
 1. Click **Merge pull request**
 1. Wait about 20 seconds then refresh this page for the next step
 
@@ -236,7 +237,7 @@ You can now [merge](https://help.github.com/articles/github-glossary/#merge) you
 
 Here's a recap of all the tasks you've accomplished in your repository:
 
-1. You learned about Markdown, tasks lists, headings, images, and code examples
+1. You learned about Markdown, headings, images, code examples, and tasks lists
 1. You created and merged a Markdown file
 1. You learned an essential GitHub skill :tada:
 

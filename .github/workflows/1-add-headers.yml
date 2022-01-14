@@ -1,0 +1,46 @@
+name: Step z, ZZZ
+
+# This step triggers after z
+# This step sets STEP to z
+# This step closes <details id=z> and opens <details id=z>
+
+# This will run every time we create push a commit to `main`
+# Reference https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
+on:
+  workflow_dispatch:
+  ZZZZ
+
+jobs:
+  on_ZZZ:
+    name: ZZZ
+
+    # We will only run this action when:
+    # 1. This repository isn't the template repository
+    # 2. The STEP is currently Z (see update-step.sh)
+    # Z
+    # Reference https://docs.github.com/en/actions/learn-github-actions/contexts
+    # Reference https://docs.github.com/en/actions/learn-github-actions/expressions
+    if: ${{ github.repository_owner != 'githublearn' }}
+
+    # We'll run Ubuntu for performance instead of Mac or Windows
+    runs-on: ubuntu-latest
+
+    steps:
+      # We'll need to check out the repository so that we can edit the README
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 # Let's get all the branches
+
+      # Update README to close <details id=Z>
+      # and open <details id=Z>
+      # and set STEP to 'Z'
+      - name: Update to step Z
+        run: ./.github/script/update-step.sh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FROM_STEP: Z
+          TO_STEP: Z
+          BRANCH_NAME: start-markdown
+
+    # TBD ZZZ
