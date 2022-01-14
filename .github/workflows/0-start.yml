@@ -33,20 +33,12 @@ jobs:
         with:
           fetch-depth: 0 # Let's get all the branches
 
-      # Update README to close <details id=0>
-      # and open <details id=1>
-      # and set STEP to '1'
-      - name: Update to step 1
-        run: ./.github/script/update-step.sh
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          FROM_STEP: 0
-          TO_STEP: 1
-          BRANCH_NAME: start-markdown
-
       # Make a branch, file, commit, and pull request for the learner
       - name: Prepare a pull request, branch, and file
         run: |
+          echo "Make sure we are on step 0"
+          # TBD
+
           echo "Make a branch"
           git checkout -b start-markdown
 
@@ -68,3 +60,14 @@ jobs:
           git checkout main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Update README to close <details id=0>
+      # and open <details id=1>
+      # and set STEP to '1'
+      - name: Update to step 1
+        run: ./.github/script/update-step.sh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FROM_STEP: 0
+          TO_STEP: 1
+          BRANCH_NAME: start-markdown
