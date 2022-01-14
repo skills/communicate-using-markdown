@@ -44,4 +44,27 @@ jobs:
           TO_STEP: 1
           BRANCH_NAME: start-markdown
 
-    # TBD make a branch, file, commit, and pull request for the learner
+      # Make a branch, file, commit, and pull request for the learner
+      - name: Prepare a pull request, branch, and file
+        run: |
+          echo "Make a branch"
+          git checkout -b start-markdown
+
+          echo "Make a file"
+          touch example.md
+
+          echo "Make a commit and push"
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add example.md
+          git commit -m "Create example.md file"
+          git push --set-upstream origin start-markdown
+
+          echo "Make a pull request"
+          # Reference https://cli.github.com/manual/gh_pr_create
+          gh pr create --title "Start learning markdown" --body "Start learning markdown"
+
+          echo "Restore main"
+          git checkout main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
