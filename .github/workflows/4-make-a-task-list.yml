@@ -37,7 +37,7 @@ jobs:
       - name: Check markdown syntax, task list
         run: |
           echo "Check that we have at least one task list"
-          if grep -e "- \[ ] " index.md
+          if grep --extended-regexp "- \[ ] " index.md
           then
             echo "Found a task list"
           else

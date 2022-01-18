@@ -37,7 +37,7 @@ jobs:
       - name: Check markdown syntax, image
         run: |
           echo "Check that we have at least one image"
-          if grep -e "\!\[.*](.*)" index.md
+          if grep --extended-regexp "\!\[.*](.*)" index.md
           then
             echo "Found an image"
           else

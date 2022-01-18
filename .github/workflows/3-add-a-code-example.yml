@@ -37,7 +37,7 @@ jobs:
       - name: Check markdown syntax, code example
         run: |
           echo "Check that we have at least one code example"
-          if grep -e "```.*```" index.md
+          if grep --extended-regexp "```.*```" index.md
           then
             echo "Found a code example"
           else
