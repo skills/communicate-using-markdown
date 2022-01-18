@@ -37,11 +37,13 @@ jobs:
       - name: Check markdown syntax, header
         run: |
           echo "Check that we have at least one header"
-          if [[ "$(cat file.md)" =~ "# [a-zA-Z0-9]"  ]]
+          if grep -e "# [a-zA-Z0-9]" file.md
           then
             echo "Found a header"
           else
             echo "Missing a header"
+            echo "----------------"
+            echo "$(cat file.md)"
             exit 204  # We're sending a weird code so it looks different from other "failures"
           fi
 
