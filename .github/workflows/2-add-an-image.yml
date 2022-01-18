@@ -33,7 +33,17 @@ jobs:
         with:
           fetch-depth: 0 # Let's get all the branches
 
-      # TBD Check that there is at least one image in the markdown file
+      # Check that there is at least one image in the markdown file
+      - name: Check markdown syntax, image
+        run: |
+          echo "Check that we have at least one image"
+          if [[ "$(cat file.md)" =~ "\!\[.*](.*)"  ]]
+          then
+            echo "Found an image"
+          else
+            echo "Missing an image"
+            exit 204  # We're sending a weird code so it looks different from other "failures"
+          fi
 
       # Update README to close <details id=2>
       # and open <details id=3>

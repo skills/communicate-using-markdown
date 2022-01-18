@@ -33,7 +33,17 @@ jobs:
         with:
           fetch-depth: 0 # Let's get all the branches
 
-      # TBD Check that there is at least one header in the markdown file
+      # Check that there is at least one header in the markdown file
+      - name: Check markdown syntax, header
+        run: |
+          echo "Check that we have at least one header"
+          if [[ "$(cat file.md)" =~ "# [a-zA-Z0-9]"  ]]
+          then
+            echo "Found a header"
+          else
+            echo "Missing a header"
+            exit 204  # We're sending a weird code so it looks different from other "failures"
+          fi
 
       # Update README to close <details id=1>
       # and open <details id=2>

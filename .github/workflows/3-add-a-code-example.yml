@@ -14,7 +14,7 @@ on:
 
 jobs:
   on_commit_start_markdown_code_example:
-    name: On commit, start markdown, code_example
+    name: On commit, start markdown, code example
 
     # We will only run this action when:
     # 1. This repository isn't the template repository
@@ -33,7 +33,17 @@ jobs:
         with:
           fetch-depth: 0 # Let's get all the branches
 
-      # TBD Check that there is at least one code example in the markdown file
+      # Check that there is at least one code example in the markdown file
+      - name: Check markdown syntax, code example
+        run: |
+          echo "Check that we have at least one header"
+          if [[ "$(cat file.md)" =~ "\`\`\`.*\`\`\`"  ]]
+          then
+            echo "Found a code example"
+          else
+            echo "Missing a code example"
+            exit 204  # We're sending a weird code so it looks different from other "failures"
+          fi
 
       # Update README to close <details id=3>
       # and open <details id=4>

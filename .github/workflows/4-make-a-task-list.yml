@@ -33,7 +33,17 @@ jobs:
         with:
           fetch-depth: 0 # Let's get all the branches
 
-      # TBD Make sure there is at least one task list item in the file
+      # Make sure there is at least one task list item in the file
+      - name: Check markdown syntax, task list
+        run: |
+          echo "Check that we have at least one task list"
+          if [[ "$(cat file.md)" =~ "- \[ ] "  ]]
+          then
+            echo "Found a task list"
+          else
+            echo "Missing a task list"
+            exit 204  # We're sending a weird code so it looks different from other "failures"
+          fi
 
       # Update README to close <details id=4>
       # and open <details id=5>
