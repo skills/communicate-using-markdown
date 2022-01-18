@@ -210,7 +210,7 @@ GitHub Actions went ahead and made a branch and a pull request for you. So you'l
 -->
 
 <details id=5>
-<summary><strong>:dancer: Step 5: Merge your pull request</strong></summary>
+<summary><strong>:shipit: Step 5: Merge your pull request</strong></summary>
 
 ### Great job adding a task list to the file :sparkles:
 
