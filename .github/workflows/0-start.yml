@@ -47,13 +47,13 @@ jobs:
           git checkout -b start-markdown
 
           echo "Make a file"
-          touch file.md
+          touch index.md
 
           echo "Make a commit and push"
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add file.md
-          git commit -m "Create file.md file"
+          git add index.md
+          git commit -m "Create index.md file"
           git push --set-upstream origin start-markdown
 
           echo "Make a pull request"

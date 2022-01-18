@@ -37,13 +37,13 @@ jobs:
       - name: Check markdown syntax, code example
         run: |
           echo "Check that we have at least one code example"
-          if grep -e "\`\`\`.*\`\`\`" file.md
+          if grep -e "```.*```" index.md
           then
             echo "Found a code example"
           else
             echo "Missing a code example"
             echo "----------------------"
-            echo "$(cat file.md)"
+            echo "$(cat index.md)"
             exit 204  # We're sending a weird code so it looks different from other "failures"
           fi
 

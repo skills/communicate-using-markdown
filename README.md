@@ -79,7 +79,7 @@ GitHub is about more than code. It’s a platform for software collaboration—a
 1. Open the **pull requests** tab
 1. Open the pull request we made for you
 1. In this pull request, click the **Files changed** tab
-1. Select "Edit file" from the three dotted **...** menu in the upper right corner of the file view on `file.md`
+1. Select "Edit file" from the three dotted **...** menu in the upper right corner of the file view on `index.md`
 1. On the **Edit file** tab, add a `#`, followed by a **space**, before the content to make it an H1 Header. You can add more headers, using one to six `#` characters followed by a **space**
 1. Above your new content, click **Preview changes**
 1. At the bottom of the page, type a short, meaningful commit message that describes the change you made to the file
