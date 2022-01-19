@@ -12,6 +12,11 @@ on:
     branches:
       - start-markdown
 
+permissions:
+  # Need `contents: read` to checkout the repository
+  # Need `contents: write` to update the step metadata
+  contents: write
+
 jobs:
   on_commit_start_markdown_headers:
     name: On commit, start markdown, headers
