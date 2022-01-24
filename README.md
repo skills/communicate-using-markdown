@@ -25,14 +25,14 @@ _This course will walk you through everything you need to start organizing ideas
 
 **To start this course: [<img width="150" alt="Use this template" src="https://user-images.githubusercontent.com/1221423/148581131-555c0fb8-5361-4450-a760-75fa6219a2fc.png">](https://github.com/githublearn/communicating-using-markdown/generate)**
 
-> We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).<br>
+> We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.com/billing/managing-billing-for-github-actions/about-billing-for-github-actions).<br>
 > After you make your own repository, wait about 20 seconds and refresh. I will go to the next step.
 
-GitHub is about more than code. It’s a platform for software collaboration—and Markdown is one of the most important ways developers can make their communication clear and organized in issues and pull requests. This course will walk you through creating and using headings more effectively, organizing thoughts in bulleted lists, and showing how much work you’ve completed with checklists. You can even use Markdown to add some depth to your work with the help of emoji, images, and links.
+GitHub is about more than code. It’s a platform for software collaboration, and Markdown is one of the most important ways developers can make their communication clear and organized in issues and pull requests. This course will walk you through creating and using headings more effectively, organizing thoughts in bulleted lists, and showing how much work you’ve completed with checklists. You can even use Markdown to add some depth to your work with the help of emoji, images, and links.
 
 - **Who is this for**: New developers, new GitHub users, and students.
-- **What you'll learn**: Use Markdown to add _lists_, _images_, and _links_ in a comment or text file
-- **What you'll build**: We'll update a plain text file and add Markdown formatting, and you can use this file to start your own GitHub pages site.
+- **What you'll learn**: Use Markdown to add lists, images, and links in a comment or text file.
+- **What you'll build**: We'll update a plain text file and add Markdown formatting, and you can use this file to start your own GitHub Pages site.
 - **Prerequisites**: In this course you will work with pull requests as well as edit files. If these things aren't familiar to you, we recommend you take the [Introduction to GitHub](https://github.com/githublearn/introduction-to-github) course, first!
 - **How long**: This course is 5 steps and takes less than one hour.
 
@@ -51,11 +51,11 @@ GitHub is about more than code. It’s a platform for software collaboration—a
 
 ### :wave: Welcome to "Communicating using Markdown"!
 
-**What is _Markdown_**: Markdown is a lightweight syntax for communicating on GitHub. You can format text to add heading, lists, **bold**, _italics_, tables, and many other stylings. You can use Markdown most places around GitHub:
+**What is _Markdown_**: Markdown is a [lightweight syntax](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for communicating on GitHub. You can format text to add heading, lists, **bold**, _italics_, tables, and many other stylings. You can use Markdown most places around GitHub:
 
-- Comments in [issues](https://help.github.com/articles/github-glossary/#issues) and [pull requests](https://help.github.com/articles/github-glossary/#pull-request)
+- Comments in [issues](https://docs.github.com/issues/tracking-your-work-with-issues/about-issues) and [pull requests](https://docs.github.com/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 - Files with the `.md` or `.markdown` extension
-- Sharing snippets of text in [Gists](https://help.github.com/en/articles/about-gists)
+- Sharing snippets of text in [Gists](https://docs.github.com/github/writing-on-github/editing-and-sharing-content-with-gists/creating-gists)
 
 **What is a _header_**: A header is a larger bit of text at the beginning of a section. There are six sizes.
 
@@ -214,7 +214,7 @@ GitHub Actions went ahead and made a branch and a pull request for you. So you'l
 
 ### Great job adding a task list to the file :sparkles:
 
-You can now [merge](https://help.github.com/articles/github-glossary/#merge) your pull request!
+You can now [merge](https://docs.github.com/get-started/quickstart/github-glossary#merge) your pull request!
 
 ### :keyboard: Activity: Merge your pull request
 
@@ -248,10 +248,10 @@ Here's a recap of all the tasks you've accomplished in your repository:
   1. Then on the lower left, click **Pages**
   1. In the **GitHub Pages** section, use the **Select source** drop-down menu to select `main` as your GitHub Pages publishing source.
   1. Click the **Save** button.
-- Learn more about [Markdown](https://docs.github.com/en/github/writing-on-github)
+- Learn more about [Markdown](https://docs.github.com/github/writing-on-github)
 - We'd love to hear what you thought of this course [in our community forum](https://github.community/c/education/github-learning-lab/34)
 - [Take another GitHub Learn Course](https://github.com/githublearn)
-- [Read the GitHub Getting Started docs](https://docs.github.com/en/get-started)
+- [Read the GitHub Getting Started docs](https://docs.github.com/get-started)
 - To find projects to contribute to, check out [GitHub Explore](https://github.com/explore)
 
 </details>
