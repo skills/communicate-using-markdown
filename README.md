@@ -75,16 +75,16 @@ GitHub is about more than code. It’s a platform for software collaboration, an
 
 ### :keyboard: Activity: Edit your file with headers
 
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab
-1. Open the **pull requests** tab
-1. Open the pull request we made for you
-1. In this pull request, click the **Files changed** tab
-1. Select "Edit file" from the three dotted **...** menu in the upper right corner of the file view on `index.md`
-1. On the **Edit file** tab, add a `#`, followed by a **space**, before the content to make it an H1 Header. You can add more headers, using one to six `#` characters followed by a **space**
-1. Above your new content, click **Preview changes**
-1. At the bottom of the page, type a short, meaningful commit message that describes the change you made to the file
-1. Click **Commit changes**
-1. Wait about 20 seconds then refresh this page for the next step
+1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
+1. Open the **pull requests** tab.
+1. Open the pull request we made for you.
+1. In this pull request, click the **Files changed** tab.
+1. Select "Edit file" from the three dotted **...** menu in the upper right corner of the file view on `index.md`.
+1. On the **Edit file** tab, add a `#`, followed by a **space**, before the content to make it an H1 Header. You can add more headers, using one to six `#` characters followed by a **space**.
+1. Above your new content, click **Preview changes**.
+1. At the bottom of the page, type a short, meaningful commit message that describes the change you made to the file.
+1. Click **Commit changes**.
+1. Wait about 20 seconds then refresh this page for the next step.
 
 </details>
 
@@ -115,9 +115,9 @@ Let's add an image. Include descriptive text in the square brackets. This text i
 
 1. As you did before, edit the file in this pull request.
 1. In the file, add the correct Markdown for your image of choice. Don't forget to include alt-text!
-1. Use the **Preview** tab to check your markdown formatting
+1. Use the **Preview** tab to check your markdown formatting.
 1. Commit your changes.
-1. Wait about 20 seconds then refresh this page for the next step
+1. Wait about 20 seconds then refresh this page for the next step.
 
 </details>
 
@@ -150,11 +150,11 @@ Initialized empty Git repository in /Users/githublearn/Projects/recipe-repositor
 
 ### :keyboard: Activity: Adding an image
 
-1. As you did before, edit the file in this pull request
-1. In the file, add the correct Markdown for a code example of your choice
-1. Use the **Preview** tab to check your markdown formatting
-1. Commit your changes
-1. Wait about 20 seconds then refresh this page for the next step
+1. As you did before, edit the file in this pull request.
+1. In the file, add the correct Markdown for a code example of your choice.
+1. Use the **Preview** tab to check your markdown formatting.
+1. Commit your changes.
+1. Wait about 20 seconds then refresh this page for the next step.
 
 </details>
 
@@ -189,17 +189,17 @@ Initialized empty Git repository in /Users/githublearn/Projects/recipe-repositor
 
 GitHub Actions went ahead and made a branch and a pull request for you. So you'll need to add to the file we've created in the branch and we will check your work as you work through this course!
 
-1. Return to your pull request
+1. Return to your pull request.
 1. Use Markdown to create a task list of todo items. Here is an example:
    ```
-   - [ ] Turn on GitHub Pages
-   - [ ] Outline my portfolio
-   - [ ] Introduce myself to the world
+   - [ ] Turn on GitHub Pages.
+   - [ ] Outline my portfolio.
+   - [ ] Introduce myself to the world.
    ```
    Remember, a task list starts with the syntax `- [ ] ` and then the task list item. The formatting is specific!
-1. Use the **Preview** tab to check your markdown formatting
-1. Commit the changes to the file
-1. Wait about 20 seconds then refresh this page for the next step
+1. Use the **Preview** tab to check your markdown formatting.
+1. Commit the changes to the file.
+1. Wait about 20 seconds then refresh this page for the next step.
 
 </details>
 
@@ -218,8 +218,8 @@ You can now [merge](https://docs.github.com/get-started/quickstart/github-glossa
 
 ### :keyboard: Activity: Merge your pull request
 
-1. Click **Merge pull request**
-1. Wait about 20 seconds then refresh this page for the next step
+1. Click **Merge pull request**.
+1. Wait about 20 seconds then refresh this page for the next step.
 
 </details>
 
@@ -237,22 +237,22 @@ You can now [merge](https://docs.github.com/get-started/quickstart/github-glossa
 
 Here's a recap of all the tasks you've accomplished in your repository:
 
-1. You learned about Markdown, headings, images, code examples, and tasks lists
-1. You created and merged a Markdown file
-1. You learned an essential GitHub skill :tada:
+1. You learned about Markdown, headings, images, code examples, and tasks lists.
+1. You created and merged a Markdown file.
+1. You learned an essential GitHub skill. :tada:
 
 ### What's next?
 
 - You can enable GitHub Pages and see your Markdown file as a website!
   1. Under your repository name at the upper right, click :gear: **Settings**.
-  1. Then on the lower left, click **Pages**
+  1. Then on the lower left, click **Pages**.
   1. In the **GitHub Pages** section, use the **Select source** drop-down menu to select `main` as your GitHub Pages publishing source.
   1. Click the **Save** button.
-- Learn more about [Markdown](https://docs.github.com/github/writing-on-github)
+- Learn more about [Markdown](https://docs.github.com/github/writing-on-github).
 - We'd love to hear what you thought of this course [in our community forum](https://github.community/c/education/github-learning-lab/34)
-- [Take another GitHub Learn Course](https://github.com/githublearn)
-- [Read the GitHub Getting Started docs](https://docs.github.com/get-started)
-- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore)
+- [Take another GitHub Learn Course](https://github.com/githublearn).
+- [Read the GitHub Getting Started docs](https://docs.github.com/get-started).
+- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
 
 </details>
 
