@@ -52,17 +52,20 @@ jobs:
           fi
 
           echo "Make a branch"
-          git checkout -b start-markdown
+          $BRANCH=start-markdown
+          git checkout -b $BRANCH
 
           echo "Make a file"
           touch index.md
 
-          echo "Make a commit and push"
+          echo "Make a commit"
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add index.md
           git commit --message="Create index.md file"
-          git push --set-upstream origin start-markdown
+
+          echo "Push"
+          git push --set-upstream origin $BRANCH
 
           echo "Make a pull request"
           # Reference https://cli.github.com/manual/gh_pr_create
