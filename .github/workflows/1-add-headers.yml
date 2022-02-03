@@ -40,17 +40,10 @@ jobs:
 
       # Check that there is at least one header in the markdown file
       - name: Check markdown syntax, header
-        run: |
-          echo "Check that we have at least one header"
-          if grep --extended-regexp "# [a-zA-Z0-9]" index.md
-          then
-            echo "Found a header"
-          else
-            echo "Missing a header"
-            echo "----------------"
-            echo "$(cat index.md)"
-            exit 204  # We're sending a weird code so it looks different from other "failures"
-          fi
+        run: ./.github/script/check-file.sh
+        env:
+          FILE: "index.md"
+          SEARCH: "# [a-zA-Z0-9]"
 
       # Update README to close <details id=1>
       # and open <details id=2>

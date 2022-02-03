@@ -40,17 +40,10 @@ jobs:
 
       # Check that there is at least one code example in the markdown file
       - name: Check markdown syntax, code example
-        run: |
-          echo "Check that we have at least one code example"
-          if grep --extended-regexp "```.*```" index.md
-          then
-            echo "Found a code example"
-          else
-            echo "Missing a code example"
-            echo "----------------------"
-            echo "$(cat index.md)"
-            exit 204  # We're sending a weird code so it looks different from other "failures"
-          fi
+        run: ./.github/script/check-file.sh
+        env:
+          FILE: "index.md"
+          SEARCH: "```.*```"
 
       # Update README to close <details id=3>
       # and open <details id=4>
