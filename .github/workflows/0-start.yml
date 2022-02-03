@@ -52,7 +52,7 @@ jobs:
           fi
 
           echo "Make a branch"
-          $BRANCH=start-markdown
+          BRANCH=start-markdown
           git checkout -b $BRANCH
 
           echo "Make a file"
