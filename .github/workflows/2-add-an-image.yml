@@ -42,7 +42,7 @@ jobs:
         run: ./.github/script/check-file.sh
         env:
           FILE: "index.md"
-          SEARCH: "\!\[.*](.*)"
+          SEARCH: "\\!\\[.*](.*)"
 
       # Update README to close <details id=2>
       # and open <details id=3>
