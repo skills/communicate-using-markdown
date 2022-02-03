@@ -3,7 +3,7 @@
 # chmod a+x .github/script/check-file.sh
 
 echo "Check that $FILE includes $SEARCH"
-if grep --extended-regexp "$SEARCH" $FILE
+if grep --extended-regexp "$SEARCH" -- $FILE
 then
   echo "Found $SEARCH in $FILE"
 else
