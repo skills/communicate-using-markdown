@@ -34,7 +34,7 @@ GitHub is about more than code. It’s a platform for software collaboration, an
 - **What you'll learn**: Use Markdown to add lists, images, and links in a comment or text file.
 - **What you'll build**: We'll update a plain text file and add Markdown formatting, and you can use this file to start your own GitHub Pages site.
 - **Prerequisites**: In this course you will work with pull requests as well as edit files. If these things aren't familiar to you, we recommend you take the [Introduction to GitHub](https://github.com/githublearn/introduction-to-github) course, first!
-- **How long**: This course is 5 steps and takes less than one hour.
+- **How long**: This course is five steps long and takes less than one hour to complete.
 
 </details>
 
@@ -49,7 +49,7 @@ GitHub is about more than code. It’s a platform for software collaboration, an
 <details id=1>
 <summary><strong>:smiley: Step 1: Add headers</strong></summary>
 
-### :wave: Welcome to "Communicate using Markdown"!
+### Welcome to "Communicate using Markdown"! :wave:
 
 **What is _Markdown_**: Markdown is a [lightweight syntax](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for communicating on GitHub. You can format text to add heading, lists, **bold**, _italics_, tables, and many other stylings. You can use Markdown most places around GitHub:
 
@@ -130,7 +130,7 @@ Let's add an image. Include descriptive text in the square brackets. This text i
 <details id=3>
 <summary><strong>:robot: Step 3: Add a code example</strong></summary>
 
-### Great job adding an image to the file :sparkles:
+### Great job adding an image to the file :tada:
 
 In addition to code blocks, some code blocks should be rendered differently depending on the language, such as Javascript or command-line text.
 
@@ -167,7 +167,7 @@ Initialized empty Git repository in /Users/githublearn/Projects/recipe-repositor
 <details id=4>
 <summary><strong>:ballot_box_with_check: Step 4: Make a task list</strong></summary>
 
-### Great job adding a code example to the file :sparkles:
+### Great job adding a code example to the file :partying_face:
 
 **What is a _task list_**: A task list creates checkboxes to check off. They're very useful for tracking issues and pull requests. If you include a task list in the body of an issue or pull request, you'll see a progress indicator in your issue list. The syntax for task lists is very specific. Be sure to include the spaces where required, or else they won't render.
 
@@ -212,7 +212,7 @@ GitHub Actions went ahead and made a branch and a pull request for you. So you'l
 <details id=5>
 <summary><strong>:shipit: Step 5: Merge your pull request</strong></summary>
 
-### Great job adding a task list to the file :sparkles:
+### Great job adding a task list to the file :heart:
 
 You can now [merge](https://docs.github.com/get-started/quickstart/github-glossary#merge) your pull request!
 
@@ -250,7 +250,7 @@ Here's a recap of all the tasks you've accomplished in your repository:
   1. Click the **Save** button.
 - Learn more about [Markdown](https://docs.github.com/github/writing-on-github).
 - We'd love to hear what you thought of this course [in our community forum](https://github.community/c/education/github-learning-lab/34)
-- [Take another GitHub Learn Course](https://github.com/githublearn).
+- [Take another GitHub Learn course](https://github.com/githublearn).
 - [Read the GitHub Getting Started docs](https://docs.github.com/get-started).
 - To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
 
