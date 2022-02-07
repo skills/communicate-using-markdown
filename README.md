@@ -13,7 +13,7 @@ _This course will walk you through everything you need to start organizing ideas
 
 <!--
   <<< Author notes: Start of the course >>>
-  Include start button, a note about actions minutes,
+  Include start button, a note about Actions minutes,
   and tell the learner why they should take the course.
   Each step should be wrapped in <details>/<summary>, with an `id` set.
   The start <details> should have `open` as well.
