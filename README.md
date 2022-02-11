@@ -21,7 +21,7 @@ _This course will walk you through everything you need to start organizing ideas
 -->
 
 <details id=0 open>
-<summary><strong>:golf: Start</strong></summary>
+<summary><strong>⛳ Start</strong></summary>
 
 **To start this course: [<img width="150" alt="Use this template" src="https://user-images.githubusercontent.com/1221423/148581131-555c0fb8-5361-4450-a760-75fa6219a2fc.png">](https://github.com/githublearn/communicate-using-markdown/generate)**
 
@@ -47,7 +47,7 @@ GitHub is about more than code. It’s a platform for software collaboration, an
 -->
 
 <details id=1>
-<summary><strong>:smiley: Step 1: Add headers</strong></summary>
+<summary><strong>😃 Step 1: Add headers</strong></summary>
 
 ## Welcome to "Communicate using Markdown!" 👋
 
@@ -73,7 +73,7 @@ GitHub is about more than code. It’s a platform for software collaboration, an
 ## This is an `<h2>` header
 ###### This is an `<h6>` header, which is the smallest
 
-### :keyboard: Activity: Edit your file with headers
+### ⌨️ Activity: Edit your file with headers
 
 1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
 1. Open the **pull requests** tab.
@@ -95,7 +95,7 @@ GitHub is about more than code. It’s a platform for software collaboration, an
 -->
 
 <details id=2>
-<summary><strong>:milky_way: Step 2: Add an image</strong></summary>
+<summary><strong>🌌 Step 2: Add an image</strong></summary>
 
 ## Great job adding headers to the file ✨
 
@@ -111,7 +111,7 @@ Let's add an image. Include descriptive text in the square brackets. This text i
 
 <img alt="Image of Yaktocat" src=https://octodex.github.com/images/yaktocat.png width=400>
 
-### :keyboard: Activity: Adding an image
+### ⌨️ Activity: Adding an image
 
 1. As you did before, edit the file in this pull request.
 1. In the file, add the correct Markdown for your image of choice. Don't forget to include alt-text!
@@ -128,7 +128,7 @@ Let's add an image. Include descriptive text in the square brackets. This text i
 -->
 
 <details id=3>
-<summary><strong>:robot: Step 3: Add a code example</strong></summary>
+<summary><strong>🤖 Step 3: Add a code example</strong></summary>
 
 ## Great job adding an image to the file 🎉
 
@@ -148,7 +148,7 @@ $ git init
 Initialized empty Git repository in /Users/githublearn/Projects/recipe-repository/.git/
 ```
 
-### :keyboard: Activity: Adding an image
+### ⌨️ Activity: Adding an image
 
 1. As you did before, edit the file in this pull request.
 1. In the file, add the correct Markdown for a code example of your choice.
@@ -165,7 +165,7 @@ Initialized empty Git repository in /Users/githublearn/Projects/recipe-repositor
 -->
 
 <details id=4>
-<summary><strong>:ballot_box_with_check: Step 4: Make a task list</strong></summary>
+<summary><strong>☑️ Step 4: Make a task list</strong></summary>
 
 ## Great job adding a code example to the file 🥳
 
@@ -185,7 +185,7 @@ Initialized empty Git repository in /Users/githublearn/Projects/recipe-repositor
 - [x] This item is completed.
 - [ ] This item is not complete.
 
-### :keyboard: Activity: Add a task list
+### ⌨️ Activity: Add a task list
 
 GitHub Actions went ahead and made a branch and a pull request for you. So you'll need to add to the file we've created in the branch and we will check your work as you work through this course!
 
@@ -216,7 +216,7 @@ GitHub Actions went ahead and made a branch and a pull request for you. So you'l
 
 You can now [merge](https://docs.github.com/get-started/quickstart/github-glossary#merge) your pull request!
 
-### :keyboard: Activity: Merge your pull request
+### ⌨️ Activity: Merge your pull request
 
 1. Click **Merge pull request**.
 1. Wait about 20 seconds then refresh this page for the next step.
@@ -229,7 +229,7 @@ You can now [merge](https://docs.github.com/get-started/quickstart/github-glossa
 -->
 
 <details id=X>
-<summary><strong>:checkered_flag: Finish</strong></summary>
+<summary><strong>🏁 Finish</strong></summary>
 
 ### Congratulations friend, you've completed this course!
 
@@ -244,7 +244,7 @@ Here's a recap of all the tasks you've accomplished in your repository:
 ### What's next?
 
 - You can enable GitHub Pages and see your Markdown file as a website!
-  1. Under your repository name at the upper right, click :gear: **Settings**.
+  1. Under your repository name at the upper right, click ⚙️ **Settings**.
   1. Then on the lower left, click **Pages**.
   1. In the **GitHub Pages** section, use the **Select source** drop-down menu to select `main` as your GitHub Pages publishing source.
   1. Click the **Save** button.
