@@ -49,7 +49,7 @@ GitHub is about more than code. It’s a platform for software collaboration, an
 <details id=1>
 <summary><strong>:smiley: Step 1: Add headers</strong></summary>
 
-### Welcome to "Communicate using Markdown"! :wave:
+## Welcome to "Communicate using Markdown!" 👋
 
 **What is _Markdown_**: Markdown is a [lightweight syntax](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for communicating on GitHub. You can format text to add heading, lists, **bold**, _italics_, tables, and many other stylings. You can use Markdown most places around GitHub:
 
@@ -59,7 +59,7 @@ GitHub is about more than code. It’s a platform for software collaboration, an
 
 **What is a _header_**: A header is a larger bit of text at the beginning of a section. There are six sizes.
 
-#### Example
+### Example
 
 ```
 # This is an <h1> header, which is the largest
@@ -97,11 +97,11 @@ GitHub is about more than code. It’s a platform for software collaboration, an
 <details id=2>
 <summary><strong>:milky_way: Step 2: Add an image</strong></summary>
 
-### Great job adding headers to the file :sparkles:
+## Great job adding headers to the file ✨
 
 Let's add an image. Include descriptive text in the square brackets. This text is read aloud for people using screen readers. It's also shown at times when your image doesn't display, such as when there's a poor connection. You can see the syntax for images below:
 
-#### Example
+### Example
 
 ```
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
@@ -130,11 +130,11 @@ Let's add an image. Include descriptive text in the square brackets. This text i
 <details id=3>
 <summary><strong>:robot: Step 3: Add a code example</strong></summary>
 
-### Great job adding an image to the file :tada:
+## Great job adding an image to the file 🎉
 
 In addition to code blocks, some code blocks should be rendered differently depending on the language, such as Javascript or command-line text.
 
-#### Example
+### Example
 
 ```sh
 $ git init
@@ -167,11 +167,11 @@ Initialized empty Git repository in /Users/githublearn/Projects/recipe-repositor
 <details id=4>
 <summary><strong>:ballot_box_with_check: Step 4: Make a task list</strong></summary>
 
-### Great job adding a code example to the file :partying_face:
+## Great job adding a code example to the file 🥳
 
 **What is a _task list_**: A task list creates checkboxes to check off. They're very useful for tracking issues and pull requests. If you include a task list in the body of an issue or pull request, you'll see a progress indicator in your issue list. The syntax for task lists is very specific. Be sure to include the spaces where required, or else they won't render.
 
-#### Example
+### Example
 
 ```
 - [x] List syntax is required.
@@ -212,7 +212,7 @@ GitHub Actions went ahead and made a branch and a pull request for you. So you'l
 <details id=5>
 <summary><strong>:shipit: Step 5: Merge your pull request</strong></summary>
 
-### Great job adding a task list to the file :heart:
+## Great job adding a task list to the file ❤️
 
 You can now [merge](https://docs.github.com/get-started/quickstart/github-glossary#merge) your pull request!
 
