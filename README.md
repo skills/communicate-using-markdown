@@ -51,13 +51,13 @@ GitHub is about more than code. It’s a platform for software collaboration, an
 
 ### Welcome to "Communicate using Markdown"! :wave:
 
-**What is _Markdown_**: Markdown is a [lightweight syntax](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for communicating on GitHub. You can format text to add heading, lists, **bold**, _italics_, tables, and many other stylings. You can use Markdown most places around GitHub:
+**What is _Markdown_?** Markdown is a [lightweight syntax](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for communicating on GitHub. You can format text to add heading, lists, **bold**, _italics_, tables, and many other stylings. You can use Markdown most places around GitHub:
 
 - Comments in [issues](https://docs.github.com/issues/tracking-your-work-with-issues/about-issues) and [pull requests](https://docs.github.com/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 - Files with the `.md` or `.markdown` extension
 - Sharing snippets of text in [Gists](https://docs.github.com/github/writing-on-github/editing-and-sharing-content-with-gists/creating-gists)
 
-**What is a _header_**: A header is a larger bit of text at the beginning of a section. There are six sizes.
+**What is a _header_?** A header is a larger bit of text at the beginning of a section. There are six sizes.
 
 #### Example
 
@@ -169,7 +169,7 @@ Initialized empty Git repository in /Users/githublearn/Projects/recipe-repositor
 
 ### Great job adding a code example to the file :partying_face:
 
-**What is a _task list_**: A task list creates checkboxes to check off. They're very useful for tracking issues and pull requests. If you include a task list in the body of an issue or pull request, you'll see a progress indicator in your issue list. The syntax for task lists is very specific. Be sure to include the spaces where required, or else they won't render.
+**What is a _task list_?** A task list creates checkboxes to check off. They're very useful for tracking issues and pull requests. If you include a task list in the body of an issue or pull request, you'll see a progress indicator in your issue list. The syntax for task lists is very specific. Be sure to include the spaces where required, or else they won't render.
 
 #### Example
 
