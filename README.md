@@ -61,7 +61,7 @@ GitHub is about more than code. It’s a platform for software collaboration, an
 
 #### Example
 
-```
+```txt
 # This is an <h1> header, which is the largest
 ## This is an <h2> header
 ###### This is an <h6> header, which is the smallest
@@ -103,7 +103,7 @@ Let's add an image. Include descriptive text in the square brackets. This text i
 
 #### Example
 
-```
+```md
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 ```
 
@@ -190,14 +190,17 @@ Initialized empty Git repository in /Users/githublearn/Projects/recipe-repositor
 GitHub Actions went ahead and made a branch and a pull request for you. So you'll need to add to the file we've created in the branch and we will check your work as you work through this course!
 
 1. Return to your pull request.
-1. Use Markdown to create a task list of todo items. Here is an example:
+1. Use Markdown to create a task list. Here is an example:
+
+   ```md
+   - [ ] Turn on GitHub Pages
+   - [ ] Outline my portfolio
+   - [ ] Introduce myself to the world
    ```
-   - [ ] Turn on GitHub Pages.
-   - [ ] Outline my portfolio.
-   - [ ] Introduce myself to the world.
-   ```
-   Remember, a task list starts with the syntax `- [ ] ` and then the task list item. The formatting is specific!
-1. Use the **Preview** tab to check your markdown formatting.
+
+   Remember, a task list starts with the syntax `- [ ]` and then the task list item. The formatting is specific!
+
+1. Use the **Preview** tab to check your Markdown formatting.
 1. Commit the changes to the file.
 1. Wait about 20 seconds then refresh this page for the next step.
 
