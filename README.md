@@ -136,14 +136,16 @@ In addition to code blocks, some code blocks should be rendered differently depe
 
 ### Example
 
-```sh
+<pre>
+```
 $ git init
 Initialized empty Git repository in /Users/githublearn/Projects/recipe-repository/.git/
 ```
+</pre>
 
 #### How it looks
 
-```sh
+```
 $ git init
 Initialized empty Git repository in /Users/githublearn/Projects/recipe-repository/.git/
 ```
