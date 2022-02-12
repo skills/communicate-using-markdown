@@ -134,7 +134,7 @@ Let's add an image. Include descriptive text in the square brackets. This text i
 
 ## Great job adding an image to the file 🎉
 
-In addition to code blocks, some code blocks should be rendered differently depending on the language, such as Javascript or command-line text.
+In addition to code blocks, some code blocks should be rendered differently depending on the language, such as JavaScript or command-line text.
 
 ### Example
 
