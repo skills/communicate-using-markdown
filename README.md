@@ -255,6 +255,7 @@ Here's a recap of all the tasks you've accomplished in your repository:
   1. Then on the lower left, click **Pages**.
   1. In the **GitHub Pages** section, use the **Source** drop-down menu to select `main` as your GitHub Pages publishing source.
   1. Click the **Save** button.
+  1. Wait about 30 seconds then refresh the page. When you see "Your site is published at ..." you can click on the link to see your published site.
 - Learn more about [Markdown](https://docs.github.com/github/writing-on-github).
 - We'd love to hear what you thought of this course [in our community forum](https://github.community/c/education/github-learning-lab/34)
 - [Take another GitHub Learn course](https://github.com/githublearn).
