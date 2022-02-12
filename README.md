@@ -115,7 +115,7 @@ Let's add an image. Include descriptive text in the square brackets. This text i
 
 1. As you did before, edit the `index.md` file in this pull request.
 1. In the file, add the correct Markdown for your image of choice. Don't forget to include alt-text!
-1. Use the **Preview** tab to check your markdown formatting.
+1. Use the **Preview** tab to check your Markdown formatting.
 1. Commit your changes.
 1. Wait about 20 seconds then refresh this page for the next step.
 
@@ -154,7 +154,7 @@ Initialized empty Git repository in /Users/githublearn/Projects/recipe-repositor
 
 1. As you did before, edit the file in this pull request.
 1. In the file, add the correct Markdown for a code example of your choice.
-1. Use the **Preview** tab to check your markdown formatting.
+1. Use the **Preview** tab to check your Markdown formatting.
 1. Commit your changes.
 1. Wait about 20 seconds then refresh this page for the next step.
 
