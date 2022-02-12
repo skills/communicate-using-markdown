@@ -191,7 +191,7 @@ Initialized empty Git repository in /Users/githublearn/Projects/recipe-repositor
 
 ### ⌨️ Activity: Add a task list
 
-GitHub Actions went ahead and made a branch and a pull request for you. So you'll need to add to the file we've created in the branch and we will check your work as you work through this course!
+GitHub Actions went ahead and made a branch and a pull request for you. So you'll need to add to the file we've created in the branch, and we will check your work as you work through this course!
 
 1. Return to your pull request.
 1. Use Markdown to create a task list. Here is an example:
