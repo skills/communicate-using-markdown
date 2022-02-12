@@ -251,7 +251,7 @@ Here's a recap of all the tasks you've accomplished in your repository:
 - You can enable GitHub Pages and see your Markdown file as a website!
   1. Under your repository name at the upper right, click :gear: **Settings**.
   1. Then on the lower left, click **Pages**.
-  1. In the **GitHub Pages** section, use the **Select source** drop-down menu to select `main` as your GitHub Pages publishing source.
+  1. In the **GitHub Pages** section, use the **Source** drop-down menu to select `main` as your GitHub Pages publishing source.
   1. Click the **Save** button.
 - Learn more about [Markdown](https://docs.github.com/github/writing-on-github).
 - We'd love to hear what you thought of this course [in our community forum](https://github.community/c/education/github-learning-lab/34)
