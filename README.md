@@ -244,9 +244,9 @@ You can now [merge](https://docs.github.com/get-started/quickstart/github-glossa
 
 Here's a recap of all the tasks you've accomplished in your repository:
 
-1. You learned about Markdown, headings, images, code examples, and task lists
-1. You created and merged a Markdown file
-1. You learned an essential GitHub skill 🎉
+1. You learned about Markdown, headings, images, code examples, and task lists.
+1. You created and merged a Markdown file.
+1. You learned an essential GitHub skill. 🎉
 
 ### What's next?
 
