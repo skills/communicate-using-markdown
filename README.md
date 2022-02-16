@@ -23,7 +23,7 @@ _This course will walk you through everything you need to start organizing ideas
 <details id=0 open>
 <summary><strong>⛳ Start</strong></summary>
 
-[![start-course](https://user-images.githubusercontent.com/1221423/154366775-5491926f-9ed1-4a4a-a229-0810c0ed7e5e.svg)](https://github.com/githublearn/communicate-using-markdown/generate)
+### [![start-course](https://user-images.githubusercontent.com/1221423/154366775-5491926f-9ed1-4a4a-a229-0810c0ed7e5e.svg)](https://github.com/githublearn/communicate-using-markdown/generate)
 
 > We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.com/billing/managing-billing-for-github-actions/about-billing-for-github-actions).<br>
 > After you make your own repository, wait about 20 seconds and refresh. I will go to the next step.
