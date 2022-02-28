@@ -60,7 +60,7 @@ _Welcome to "Communicate using Markdown"! :wave:_
 
 **What is a _header_?** A header is a larger bit of text at the beginning of a section. There are six sizes.
 
-#### Example
+### Example
 
 ```txt
 # This is an <h1> header, which is the largest
@@ -102,7 +102,7 @@ _Great job adding headers to the file :sparkles:_
 
 Let's add an image. Include descriptive text in the square brackets. This text is read aloud for people using screen readers. It's also shown at times when your image doesn't display, such as when there's a poor connection. You can see the syntax for images below:
 
-#### Example
+### Example
 
 ```md
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
@@ -135,7 +135,7 @@ _Great job adding an image to the file :tada:_
 
 In addition to code blocks, some code blocks should be rendered differently depending on the language, such as JavaScript or command-line text.
 
-#### Example
+### Example
 
 <pre>
 ```
@@ -174,7 +174,7 @@ _Great job adding a code example to the file :partying_face:_
 
 **What is a _task list_?** A task list creates checkboxes to check off. They're very useful for tracking issues and pull requests. If you include a task list in the body of an issue or pull request, you'll see a progress indicator in your issue list. The syntax for task lists is very specific. Be sure to include the spaces where required, or else they won't render.
 
-#### Example
+### Example
 
 ```
 - [x] List syntax is required
