@@ -21,10 +21,11 @@ _This course will walk you through everything you need to start organizing ideas
 -->
 
 <details id=0 open>
-<summary><strong>:golf: Start</strong></summary>
+<summary><h2>:golf: Start</h2></summary>
 
-**To start this course: [<img width="150" alt="Use this template" src="https://user-images.githubusercontent.com/1221423/148581131-555c0fb8-5361-4450-a760-75fa6219a2fc.png">](https://github.com/githublearn/communicate-using-markdown/generate)**
+[![start-course](https://user-images.githubusercontent.com/1221423/154366775-5491926f-9ed1-4a4a-a229-0810c0ed7e5e.svg)](https://github.com/githublearn/communicate-using-markdown/generate)
 
+> When you select **Start course** or **Use this template**, you will be prompted to create a new repository.
 > We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.com/billing/managing-billing-for-github-actions/about-billing-for-github-actions).<br>
 > After you make your own repository, wait about 20 seconds and refresh. I will go to the next step.
 
@@ -47,9 +48,9 @@ GitHub is about more than code. It’s a platform for software collaboration, an
 -->
 
 <details id=1>
-<summary><strong>:smiley: Step 1: Add headers</strong></summary>
+<summary><h2>:smiley: Step 1: Add headers</h2></summary>
 
-### Welcome to "Communicate using Markdown"! :wave:
+_Welcome to "Communicate using Markdown"! :wave:_
 
 **What is _Markdown_?** Markdown is a [lightweight syntax](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for communicating on GitHub. You can format text to add heading, lists, **bold**, _italics_, tables, and many other stylings. You can use Markdown most places around GitHub:
 
@@ -95,9 +96,9 @@ GitHub is about more than code. It’s a platform for software collaboration, an
 -->
 
 <details id=2>
-<summary><strong>:milky_way: Step 2: Add an image</strong></summary>
+<summary><h2>:milky_way: Step 2: Add an image</h2></summary>
 
-### Great job adding headers to the file :sparkles:
+_Great job adding headers to the file :sparkles:_
 
 Let's add an image. Include descriptive text in the square brackets. This text is read aloud for people using screen readers. It's also shown at times when your image doesn't display, such as when there's a poor connection. You can see the syntax for images below:
 
@@ -128,9 +129,9 @@ Let's add an image. Include descriptive text in the square brackets. This text i
 -->
 
 <details id=3>
-<summary><strong>:robot: Step 3: Add a code example</strong></summary>
+<summary><h2>:robot: Step 3: Add a code example</h2></summary>
 
-### Great job adding an image to the file :tada:
+_Great job adding an image to the file :tada:_
 
 In addition to code blocks, some code blocks should be rendered differently depending on the language, such as JavaScript or command-line text.
 
@@ -167,9 +168,9 @@ Initialized empty Git repository in /Users/githublearn/Projects/recipe-repositor
 -->
 
 <details id=4>
-<summary><strong>:ballot_box_with_check: Step 4: Make a task list</strong></summary>
+<summary><h2>:ballot_box_with_check: Step 4: Make a task list</h2></summary>
 
-### Great job adding a code example to the file :partying_face:
+_Great job adding a code example to the file :partying_face:_
 
 **What is a _task list_?** A task list creates checkboxes to check off. They're very useful for tracking issues and pull requests. If you include a task list in the body of an issue or pull request, you'll see a progress indicator in your issue list. The syntax for task lists is very specific. Be sure to include the spaces where required, or else they won't render.
 
@@ -215,9 +216,9 @@ GitHub Actions went ahead and made a branch and a pull request for you. So you'l
 -->
 
 <details id=5>
-<summary><strong>:shipit: Step 5: Merge your pull request</strong></summary>
+<summary><h2>:shipit: Step 5: Merge your pull request</h2></summary>
 
-### Great job adding a task list to the file :heart:
+_Great job adding a task list to the file :heart:_
 
 You can now [merge](https://docs.github.com/get-started/quickstart/github-glossary#merge) your pull request!
 
@@ -234,9 +235,9 @@ You can now [merge](https://docs.github.com/get-started/quickstart/github-glossa
 -->
 
 <details id=X>
-<summary><strong>:checkered_flag: Finish</strong></summary>
+<summary><h2>:checkered_flag: Finish</h2></summary>
 
-### Congratulations friend, you've completed this course!
+_Congratulations friend, you've completed this course!_
 
 <img src=https://octodex.github.com/images/welcometocat.png alt=celebrate width=300 align=right>
 
