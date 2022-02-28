@@ -216,7 +216,7 @@ GitHub Actions went ahead and made a branch and a pull request for you. So you'l
 -->
 
 <details id=5>
-<summary><h2>:shipit: Step 5: Merge your pull request</h2></summary>
+<summary><h2>:squirrel: Step 5: Merge your pull request</h2></summary>
 
 _Great job adding a task list to the file :heart:_
 
