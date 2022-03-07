@@ -5,7 +5,7 @@
   Add your open source license, GitHub uses Creative Commons Attribution 4.0 International.
 -->
 
-<img src=https://repository-images.githubusercontent.com/138594823/a91ab200-586d-11ea-971b-49617147d94e width=300 align=right>
+<img src=https://user-images.githubusercontent.com/1221423/156946919-a2ff5d0a-4c38-4cdf-a43c-87855924c70a.svg width=300 align=right>
 
 # Communicate using Markdown
 
