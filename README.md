@@ -23,7 +23,7 @@ _This course will walk you through everything you need to start organizing ideas
 <details id=0 open>
 <summary><h2>:golf: Start</h2></summary>
 
-[![start-course](https://user-images.githubusercontent.com/1221423/154366775-5491926f-9ed1-4a4a-a229-0810c0ed7e5e.svg)](https://github.com/githublearn/communicate-using-markdown/generate)
+[![start-course](https://user-images.githubusercontent.com/1221423/154366775-5491926f-9ed1-4a4a-a229-0810c0ed7e5e.svg)](https://github.com/skills/communicate-using-markdown/generate)
 
 > When you select **Start course** or **Use this template**, you will be prompted to create a new repository.
 > We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.com/billing/managing-billing-for-github-actions/about-billing-for-github-actions).<br>
@@ -34,7 +34,7 @@ GitHub is about more than code. It’s a platform for software collaboration, an
 - **Who is this for**: New developers, new GitHub users, and students.
 - **What you'll learn**: Use Markdown to add lists, images, and links in a comment or text file.
 - **What you'll build**: We'll update a plain text file and add Markdown formatting, and you can use this file to start your own GitHub Pages site.
-- **Prerequisites**: In this course you will work with pull requests as well as edit files. If these things aren't familiar to you, we recommend you take the [Introduction to GitHub](https://github.com/githublearn/introduction-to-github) course, first!
+- **Prerequisites**: In this course you will work with pull requests as well as edit files. If these things aren't familiar to you, we recommend you take the [Introduction to GitHub](https://github.com/skills/introduction-to-github) course, first!
 - **How long**: This course is five steps long and takes less than one hour to complete.
 
 </details>
@@ -140,7 +140,7 @@ In addition to code blocks, some code blocks should be rendered differently depe
 <pre>
 ```
 $ git init
-Initialized empty Git repository in /Users/githublearn/Projects/recipe-repository/.git/
+Initialized empty Git repository in /Users/skills/Projects/recipe-repository/.git/
 ```
 </pre>
 
@@ -148,7 +148,7 @@ Initialized empty Git repository in /Users/githublearn/Projects/recipe-repositor
 
 ```
 $ git init
-Initialized empty Git repository in /Users/githublearn/Projects/recipe-repository/.git/
+Initialized empty Git repository in /Users/skills/Projects/recipe-repository/.git/
 ```
 
 ### :keyboard: Activity: Adding an image
@@ -256,8 +256,8 @@ Here's a recap of all the tasks you've accomplished in your repository:
   1. Click the **Save** button.
   1. Wait about 30 seconds then refresh the page. When you see "Your site is published at ..." you can click on the link to see your published site.
 - Learn more about [Markdown](https://docs.github.com/github/writing-on-github).
-- We'd love to hear what you thought of this course [in our community forum](https://github.community/c/education/github-learning-lab/34)
-- [Take another GitHub Learn course](https://github.com/githublearn).
+- We'd love to hear what you thought of this course [in our community forum](https://github.com/skills/.github/discussions)
+- [Take another GitHub Skills course](https://github.com/skills).
 - [Read the GitHub Getting Started docs](https://docs.github.com/get-started).
 - To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
 
@@ -270,6 +270,6 @@ Here's a recap of all the tasks you've accomplished in your repository:
 
 ---
 
-Get help: [Post in our community forum](https://github.community/c/education/github-learning-lab/34) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+Get help: [Post in our community forum](https://github.com/skills/.github/discussions) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
 
 &copy; 2022 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [CC-BY-4.0 License](https://creativecommons.org/licenses/by/4.0/legalcode)
