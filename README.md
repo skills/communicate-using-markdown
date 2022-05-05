@@ -7,7 +7,7 @@
 
 # Communicate using Markdown
 
-_This course will walk you through everything you need to start organizing ideas and collaborating using Markdown, a lightweight language for text formatting._
+_Organize ideas and collaborate using Markdown, a lightweight language for text formatting._
 
 <!--
   <<< Author notes: Start of the course >>>
