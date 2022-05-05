@@ -5,8 +5,6 @@
   Add your open source license, GitHub uses Creative Commons Attribution 4.0 International.
 -->
 
-<img src=https://user-images.githubusercontent.com/1221423/156946919-a2ff5d0a-4c38-4cdf-a43c-87855924c70a.svg width=300 align=right>
-
 # Communicate using Markdown
 
 _This course will walk you through everything you need to start organizing ideas and collaborating using Markdown, a lightweight language for text formatting._
@@ -21,7 +19,7 @@ _This course will walk you through everything you need to start organizing ideas
 -->
 
 <details id=0 open>
-<summary><h2>:golf: Start</h2></summary>
+<summary><h2>Start</h2></summary>
 
 [![start-course](https://user-images.githubusercontent.com/1221423/154366775-5491926f-9ed1-4a4a-a229-0810c0ed7e5e.svg)](https://github.com/skills/communicate-using-markdown/generate)
 
@@ -48,7 +46,7 @@ GitHub is about more than code. It’s a platform for software collaboration, an
 -->
 
 <details id=1>
-<summary><h2>:smiley: Step 1: Add headers</h2></summary>
+<summary><h2>Step 1: Add headers</h2></summary>
 
 _Welcome to "Communicate using Markdown"! :wave:_
 
@@ -96,7 +94,7 @@ _Welcome to "Communicate using Markdown"! :wave:_
 -->
 
 <details id=2>
-<summary><h2>:milky_way: Step 2: Add an image</h2></summary>
+<summary><h2>Step 2: Add an image</h2></summary>
 
 _Great job adding headers to the file :sparkles:_
 
@@ -129,7 +127,7 @@ Let's add an image. Include descriptive text in the square brackets. This text i
 -->
 
 <details id=3>
-<summary><h2>:robot: Step 3: Add a code example</h2></summary>
+<summary><h2>Step 3: Add a code example</h2></summary>
 
 _Great job adding an image to the file :tada:_
 
@@ -168,7 +166,7 @@ Initialized empty Git repository in /Users/skills/Projects/recipe-repository/.gi
 -->
 
 <details id=4>
-<summary><h2>:ballot_box_with_check: Step 4: Make a task list</h2></summary>
+<summary><h2>Step 4: Make a task list</h2></summary>
 
 _Great job adding a code example to the file :partying_face:_
 
@@ -235,7 +233,7 @@ You can now [merge](https://docs.github.com/get-started/quickstart/github-glossa
 -->
 
 <details id=X>
-<summary><h2>:checkered_flag: Finish</h2></summary>
+<summary><h2>Finish</h2></summary>
 
 _Congratulations friend, you've completed this course!_
 
