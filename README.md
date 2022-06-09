@@ -152,7 +152,7 @@ $ git init
 Initialized empty Git repository in /Users/skills/Projects/recipe-repository/.git/
 ```
 
-### :keyboard: Activity: Adding an image
+### :keyboard: Activity: Adding a code example
 
 1. As you did before, edit the file in this pull request.
 1. In the file, add the correct Markdown for a code example of your choice.
