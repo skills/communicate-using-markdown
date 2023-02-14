@@ -66,10 +66,6 @@ jobs:
           echo "Push"
           git push --set-upstream origin $BRANCH
 
-          echo "Make a pull request"
-          # Reference https://cli.github.com/manual/gh_pr_create
-          gh pr create --title "Start learning markdown" --body "Start learning markdown"
-
           echo "Restore main"
           git checkout main
         env:

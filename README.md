@@ -79,14 +79,14 @@ _Welcome to "Communicate using Markdown"! :wave:_
 
 1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
 1. Open the **pull requests** tab.
-1. Open the pull request we made for you.
+1. Click **New pull request**, for the branches to compare, select `base: main` and `compare: start-markdown`.
 1. In this pull request, go to the **Files changed** tab.
 1. Select **Edit file** from the three dotted **...** menu in the upper right corner of the file view on `index.md`.
 1. On the **Edit file** tab, add a `#`, followed by a **space**, before the content to make it an H1 Header. You can add more headers, using one to six `#` characters followed by a **space**.
 1. Above your new content, click **Preview**.
 1. At the bottom of the page, type a short, meaningful commit message that describes the change you made to the file.
 1. Click **Commit changes**.
-1. Wait about 20 seconds then refresh this page for the next step.
+1.  Wait about 20 seconds then refresh this page for the next step.
 
 </details>
 
@@ -191,7 +191,7 @@ _Great job adding a code example to the file :partying_face:_
 
 ### :keyboard: Activity: Add a task list
 
-GitHub Actions went ahead and made a branch and a pull request for you. So you'll need to add to the file we've created in the branch, and we will check your work as you work through this course!
+GitHub Actions went ahead and made a branch for you. So you'll need to add to the file we've created in the branch, and we will check your work as you work through this course!
 
 1. Return to your pull request.
 1. Use Markdown to create a task list. Here is an example:
