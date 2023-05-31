@@ -56,10 +56,10 @@ jobs:
 
       # Make sure there is at least one task list item in the file.
       - name: Check markdown syntax, task list
-        run: ./.github/script/check-file.sh
-        env:
-          FILE: "index.md"
-          SEARCH: "\\- \\[ ] "
+        uses: skills/action-check-file@v1
+        with:
+          file: "index.md"
+          search: "\\- \\[ ] "
 
       # In README.md, switch step 4 for step 5.
       - name: Update to step 5

@@ -56,10 +56,10 @@ jobs:
 
       # Check that there is at least one header in the markdown file.
       - name: Check markdown syntax, header
-        run: ./.github/script/check-file.sh
-        env:
-          FILE: "index.md"
-          SEARCH: "# [a-zA-Z0-9]"
+        uses: skills/action-check-file@v1
+        with:
+          file: "index.md"
+          search: "# [a-zA-Z0-9]"
 
       # In README.md, switch step 1 for step 2.
       - name: Update to step 2

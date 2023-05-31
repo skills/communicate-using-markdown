@@ -56,10 +56,10 @@ jobs:
 
       # Check that there is at least one image in the markdown file.
       - name: Check markdown syntax, image
-        run: ./.github/script/check-file.sh
-        env:
-          FILE: "index.md"
-          SEARCH: "\\!\\[.*](.*)"
+        uses: skills/action-check-file@v1
+        with:
+          file: "index.md"
+          search: "\\!\\[.*](.*)"
 
       # In README.md, switch step 2 for step 3.
       - name: Update to step 3

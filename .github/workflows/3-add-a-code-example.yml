@@ -56,10 +56,10 @@ jobs:
 
       # Check that there is at least one code example in the markdown file.
       - name: Check markdown syntax, code example
-        run: ./.github/script/check-file.sh
-        env:
-          FILE: "index.md"
-          SEARCH: "\\`\\`\\`"
+        uses: skills/action-check-file@v1
+        with:
+          file: "index.md"
+          search: "\\`\\`\\`"
 
       # In README.md, switch step 3 for step 4.
       - name: Update to step 4
