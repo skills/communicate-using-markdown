@@ -12,12 +12,12 @@ In addition to code blocks, some code blocks should be rendered differently depe
 
 ### Example
 
-<pre>
+````md
 ```
 $ git init
 Initialized empty Git repository in /Users/skills/Projects/recipe-repository/.git/
 ```
-</pre>
+````
 
 #### How it looks
 
