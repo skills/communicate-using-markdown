@@ -13,17 +13,15 @@ In addition to code blocks, some code blocks should be rendered differently depe
 ### Example
 
 <pre>
-```
-$ git init
-Initialized empty Git repository in /Users/skills/Projects/recipe-repository/.git/
+``` javascript
+var myVar = "Hello, world!";
 ```
 </pre>
 
 #### How it looks
 
-```
-$ git init
-Initialized empty Git repository in /Users/skills/Projects/recipe-repository/.git/
+```javascript
+var myVar = "Hello, world!";
 ```
 
 ### :keyboard: Activity: Adding a code example
