@@ -10,7 +10,23 @@ _Great job adding an image to the file :tada:_
 
 In addition to code blocks, some code blocks should be rendered differently depending on the language, such as JavaScript or command-line text.
 
-### Example
+### Example 1
+
+<pre>
+```
+$ git init
+Initialized empty Git repository in /Users/skills/Projects/recipe-repository/.git/
+```
+</pre>
+
+#### How it looks
+
+```
+$ git init
+Initialized empty Git repository in /Users/skills/Projects/recipe-repository/.git/
+```
+
+### Example 2
 
 <pre>
 ``` javascript
