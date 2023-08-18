@@ -24,7 +24,7 @@ Here's a recap of all the tasks you've accomplished in your repository:
   1. Click the **Save** button.
   1. Wait about 30 seconds then refresh the page. When you see "Your site is published at ..." you can click on the link to see your published site.
 - Learn more about [Markdown](https://docs.github.com/github/writing-on-github).
-- We'd love to hear what you thought of this course [in our discussion board](https://github.com/skills/.github/discussions)
+- We'd love to hear what you thought of this course [in our discussion board](https://github.com/orgs/skills/discussions/categories/communicate-using-markdown)
 - [Take another GitHub Skills course](https://github.com/skills).
 - [Read the GitHub Getting Started docs](https://docs.github.com/get-started).
 - To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
