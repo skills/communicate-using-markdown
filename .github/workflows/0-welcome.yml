@@ -74,8 +74,8 @@ jobs:
           touch index.md
 
           echo "Make a commit"
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.name github-actions[bot]
+          git config user.email github-actions[bot]@users.noreply.github.com
           git add index.md
           git commit --message="Create index.md file"
 
