@@ -8,7 +8,7 @@
 
 _Great job adding an image to the file :tada:_
 
-In addition to code blocks, some code blocks should be rendered differently depending on the language, such as JavaScript or command-line text.
+Let's add some code blocks. Code blocks can render differently depending on the language.
 
 ### Example 1
 
