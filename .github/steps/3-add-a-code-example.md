@@ -42,7 +42,7 @@ var myVar = "Hello, world!";
 
 ### :keyboard: Activity: Adding a code example
 
-1. As you did before, edit the file in this pull request.
+1. As you did before, go to and edit the file in this pull request.
 1. In the file, add the correct Markdown for a code example of your choice.
 1. Use the **Preview** tab to check your Markdown formatting.
 1. Commit your changes.
