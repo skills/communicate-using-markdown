@@ -40,11 +40,18 @@ _Welcome to "Communicate using Markdown"! :wave:_
 
 1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
 1. Open the **pull requests** tab.
-1. Click **New pull request**, for the branches to compare, select `base: main` and `compare: start-markdown`.
+1. Click **New pull request**. For the branches to compare: select `base: main` and `compare: start-markdown`.
 1. Click **Create pull request** and **merge pull request**.
 1. In this pull request, go to the **Files changed** tab. We made an empty file `index.md` for you.
 1. Select **Edit file** icon on `index.md`.
 1. On the **Edit file** tab, add a `#`, followed by a **space**, before any content you like to make it an H1 Header. You can add more headers, using one to six `#` characters followed by a **space**.
+   Example:
+   ```md
+   # h1
+   ## h2
+   ...
+   ###### h6
+   ```
 1. Above your new content, click **Preview**.
 1. At the bottom of the page, type a short, meaningful commit message that describes the change you made to the file.
 1. Click **Commit changes**.
