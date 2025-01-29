@@ -1,13 +1,11 @@
-# Cabeçalho 1
-## Cabeçalho 2
-### Cabeçalho 3
+# Título
+## Título
+### Título
+#### Título
+##### Título
+###### Título
 
-!Logo do GitHub
+![Imagem de Octocat ](https://th.bing.com/th/id/OIP.t-0XP93psH19eMAFnz6-VAHaES?rs=1&pid=ImgDetMain)
 
-\`\`\`python
-def exemplo():
-    print("Olá, Mundo!")
-\`\`\`
-
-- [ ] Tarefa 1
-- [x] Tarefa 2
+```javascript
+var minhaVar = "Olá, mundo!";
