@@ -1,4 +1,36 @@
 <header>
+# 🗣️ Comunique-se usando Markdown
+
+Este projeto demonstra como utilizar a linguagem Markdown para criar uma documentação clara, organizada e visualmente atraente. Abaixo, você encontrará exemplos de cabeçalhos, imagens, códigos, listas de tarefas e muito mais.
+
+---
+
+## 📸 Imagem de Exemplo
+
+![Markdown Logo](https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg)
+
+---
+
+## 🧩 Exemplo de Código
+
+Abaixo está um simples código em JavaScript que imprime uma mensagem no console:
+
+```javascript
+function sayHello() {
+  console.log("Olá, Markdown!");
+}
+sayHello();
+
+
+
+
+
+
+
+
+
+
+
 
 <!--
   <<< Author notes: Course header >>>
