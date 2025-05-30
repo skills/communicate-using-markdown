@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - "day-1.md"
 
 permissions:
   contents: write
