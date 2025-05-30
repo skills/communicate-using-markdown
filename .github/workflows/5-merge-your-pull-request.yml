@@ -22,11 +22,11 @@ jobs:
 
   post_review_content:
     name: Post review content
-    needs: [find_exercise, check_step_work]
+    needs: [find_exercise]
     runs-on: ubuntu-latest
     if: |
       !github.event.repository.is_template &&
-      github.head_ref == 'first-blog' &&
+      github.head_ref == 'start-blog' &&
       github.event.pull_request.merged == true
     env:
       ISSUE_URL: ${{ needs.find_exercise.outputs.issue-url }}
