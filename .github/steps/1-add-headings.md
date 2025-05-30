@@ -59,3 +59,11 @@
 1. In the top right, click the **Commit changes** button and commit to the `start-blog` branch.
 
 1. With our headings created and committed, Mona should be busy reviewing your work and preparing the next steps.
+
+<details>
+<summary>Having trouble? 🤷</summary><br/>
+
+- Confirm you are editing the correct file and branch.
+- Double check your syntax. The must be a space between the `#` and first word.
+
+</details>

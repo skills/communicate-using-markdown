@@ -67,3 +67,11 @@ Add empty brackets `[ ]` for incomplete tasks and filled brackets `[x]` for comp
 1. In the top right, click the **Commit changes** button and commit to the `start-blog` branch.
 
 1. With our code block committed, Mona should be busy reviewing your work and preparing the next steps.
+
+<details>
+<summary>Having trouble? 🤷</summary><br/>
+
+- Confirm you are editing the correct file and branch.
+- Double check your syntax. The must be a space inside the `[ ]` for task lists.
+
+</details>

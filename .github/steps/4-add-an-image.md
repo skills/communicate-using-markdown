@@ -62,3 +62,11 @@ Our blog post is quite simple right now. Let's add some decoration.
 1. In the top right, click the **Commit changes** button and commit to the `start-blog` branch.
 
 1. With our image added and committed, Mona should be busy reviewing your work and preparing the next steps.
+
+<details>
+<summary>Having trouble? 🤷</summary><br/>
+
+- Confirm you are editing the correct file and branch.
+- Double check your syntax. An HTML image tag must start with `img` and include the `src` property.
+
+</details>
