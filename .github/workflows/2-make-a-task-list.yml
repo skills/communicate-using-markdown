@@ -53,7 +53,7 @@ jobs:
         uses: skills/action-keyphrase-checker@v1
         with:
           text-file: day-1.md
-          keyphrase: "- [ ]"
+          keyphrase: " [ ] "
           case-sensitive: false
           minimum-occurrences: 1
 
