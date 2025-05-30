@@ -18,8 +18,6 @@
 ###### This is an `<h6>`heading, which is the smallest
 ```
 
-#### How it looks
-
 # This is an `<h1>` heading, which is the largest
 
 ## This is an `<h2>` heading
@@ -36,7 +34,11 @@
 
 1. Above the files list, click the **Add file** button and select **Create new file**.
 
-1. Enter the name `day-1.md`.
+1. Use the following file name.
+
+   ```md
+   day-1.md
+   ```
 
 1. In the editor, on the first line use a level one heading to give the page a title.
 
