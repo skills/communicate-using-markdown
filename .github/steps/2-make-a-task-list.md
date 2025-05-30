@@ -52,9 +52,9 @@ Add empty brackets `[ ]` for incomplete tasks and filled brackets `[x]` for comp
 
 ### :keyboard: Activity: Add ideas and goals to our morning plan
 
-1. Open the `day-1.md` file for editing.
+1. On the `start-blog` branch, open the `day-1.md` file for editing.
 
-1. Add an entry in the **morning planning** entry recording some topics to learn about and goals to achieve.
+1. Add the following task list below **morning planning** level two heading to track goals you want to achieve.
 
    ```md
    - [ ] Check out the [github blog](https://github.blog/) for topic ideas.
@@ -64,7 +64,7 @@ Add empty brackets `[ ]` for incomplete tasks and filled brackets `[x]` for comp
 
 1. Use the **Preview** tab to check your Markdown formatting.
 
-1. In the top right, click the **Commit changes** button and commit to the `start-blog` branch.
+1. In the top right, click the **Commit changes** button and commit directly to the `start-blog` branch.
 
 1. With our code block committed, Mona should be busy reviewing your work and preparing the next steps.
 

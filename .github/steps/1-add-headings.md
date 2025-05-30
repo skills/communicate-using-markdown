@@ -30,7 +30,7 @@
 
 1. In the top navigation, select the **Code** tab.
 
-1. In the top left, start a new branch with the following name.
+1. Create a new branch with the following name:
 
    ```md
    start-blog
@@ -60,7 +60,7 @@
 
 1. Above the editor, click the **Preview** toggle to view the rendered version.
 
-1. In the top right, click the **Commit changes** button and commit to the `start-blog` branch.
+1. In the top right, click the **Commit changes** button and commit directly to the `start-blog` branch.
 
 1. With our headings created and committed, Mona should be busy reviewing your work and preparing the next steps.
 

@@ -85,9 +85,9 @@ jobs:
             results_table:
               - description: "day-1.md file exists"
                 passed: ${{ steps.check-file-exists.outcome == 'success' }}
-              - description: "Level 1 heading syntax in day-1.md"
+              - description: "One level 1 heading (#) added to day-1.md"
                 passed: ${{ steps.check-h1.outcome == 'success' }}
-              - description: "Level 2 heading syntax in day-1.md"
+              - description: "Two level 2 heading (##) added to day-1.md"
                 passed: ${{ steps.check-h2.outcome == 'success' }}
 
       - name: Create comment - step results
