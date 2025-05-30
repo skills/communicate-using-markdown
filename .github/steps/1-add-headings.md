@@ -30,7 +30,11 @@
 
 1. In the top navigation, select the **Code** tab.
 
-1. In the top left, start a new branch with the name `start-blog`.
+1. In the top left, start a new branch with the following name.
+
+   ```md
+   start-blog
+   ```
 
 1. Above the files list, click the **Add file** button and select **Create new file**.
 

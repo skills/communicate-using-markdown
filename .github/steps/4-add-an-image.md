@@ -42,7 +42,7 @@ Our blog post is quite simple right now. Let's add some decoration.
 
 1. Open the `day-1.md` file for editing.
 
-1. Insert an image after the title heading (level 1) but before the first planning heading (level 2).
+1. Insert an image after the **Morning Planning** heading and before the list.
 
    ```md
    ![Cloudy morning](https://octodex.github.com/images/cloud.jpg)
@@ -50,13 +50,12 @@ Our blog post is quite simple right now. Let's add some decoration.
 
 1. Use the **Preview** tab to check your Markdown formatting.
 
-   - Notice that image is much to large for our purpose.
+   - Notice the image is too large for our purpose.
 
-1. Replace the simple markdown example with the HTML version with size and position info. Much better!
+1. Replace the simple markdown version with an HTML version that includes size and position info. Much better!
 
    ```md
-   <img alt="Cloudy morning" src="https://octodex.github.com/images/cloud.jpg"
-   width="50" align="right">
+   <img alt="Cloudy morning" src="https://octodex.github.com/images/cloud.jpg" width="100" align="right">
    ```
 
 1. In the top right, click the **Commit changes** button and commit to the `start-blog` branch.
