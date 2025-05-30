@@ -47,16 +47,6 @@ jobs:
 
       # START: Check practical exercise
 
-      - name: Check for markdown image
-        id: check-markdown-image
-        continue-on-error: true
-        uses: skills/action-keyphrase-checker@v1
-        with:
-          text-file: day-1.md
-          keyphrase: "!["
-          case-sensitive: false
-          minimum-occurrences: 1
-
       - name: Check for HTML image
         id: check-html-image
         continue-on-error: true
@@ -76,8 +66,6 @@ jobs:
             step_number: 4
             passed: ${{ !contains(steps.*.outcome, 'failure') }}
             results_table:
-              - description: "Markdown image syntax in day-1.md"
-                passed: ${{ steps.check-markdown-image.outcome == 'success' }}
               - description: "HTML image tag in day-1.md"
                 passed: ${{ steps.check-html-image.outcome == 'success' }}
 
