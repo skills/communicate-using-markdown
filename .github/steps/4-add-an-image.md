@@ -12,11 +12,14 @@ Note: Markdown syntax doesn't provide an option to change the image size.
 
 ### Example
 
+Relative URL to an image in the repository:
 ```md
 ![Mona the Octocat](myrepo/original.png)
 
-or
+```
 
+Absolute URL to an image on the internet:
+```md
 ![Mona the Octocat](https://octodex.github.com/images/original.png)
 ```
 
@@ -40,9 +43,9 @@ width="200" align="right">
 
 Our blog post is quite simple right now. Let's add some decoration.
 
-1. Open the `day-1.md` file for editing.
+1. On the `start-blog` branch, open the `day-1.md` file for editing.
 
-1. Insert an image after the **Morning Planning** heading and before the list.
+1. Insert an image below the **Morning Planning** level 1 heading.
 
    ```md
    ![Cloudy morning](https://octodex.github.com/images/cloud.jpg)
@@ -58,7 +61,7 @@ Our blog post is quite simple right now. Let's add some decoration.
    <img alt="Cloudy morning" src="https://octodex.github.com/images/cloud.jpg" width="100" align="right">
    ```
 
-1. In the top right, click the **Commit changes** button and commit to the `start-blog` branch.
+1. In the top right, click the **Commit changes** button and commit directly to the `start-blog` branch.
 
 1. With our image added and committed, Mona should be busy reviewing your work and preparing the next steps.
 

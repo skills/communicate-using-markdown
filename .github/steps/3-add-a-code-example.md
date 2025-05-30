@@ -9,7 +9,7 @@ Let's learn about [code blocks](https://docs.github.com/en/get-started/writing-o
 
 ````md
 ```bash
-git clone
+git clone https://github.com/skills/communicate-using-markdown
 ```
 ````
 
@@ -31,9 +31,9 @@ var myVar = "Hello, world!";
 
 ### :keyboard: Activity: Adding a code example
 
-1. Open the `day-1.md` file for editing.
+1. On the `start-blog` branch, open the `day-1.md` file for editing.
 
-1. Add an entry in the **Review** entry recording an awesome code snippet you just learned from the GitHub Blog.
+1. Below **Review** level two heading add the following entry recording an awesome code snippet you just learned from the GitHub Blog.
 
    ````md
    Convert an image or video from dark mode to light mode using [ffmpeg](https://www.ffmpeg.org)
@@ -45,7 +45,7 @@ var myVar = "Hello, world!";
 
 1. Use the **Preview** tab to check your Markdown formatting.
 
-1. In the top right, click the **Commit changes** button and commit to the `start-blog` branch.
+1. In the top right, click the **Commit changes** button and commit directly to the `start-blog` branch.
 
 1. With our code block committed, Mona should be busy reviewing your work and preparing the next steps.
 

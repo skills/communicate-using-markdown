@@ -66,7 +66,7 @@ jobs:
             step_number: 2
             passed: ${{ !contains(steps.*.outcome, 'failure') }}
             results_table:
-              - description: "Task list syntax in day-1.md"
+              - description: "Task list added to day-1.md file"
                 passed: ${{ steps.check-task-list.outcome == 'success' }}
 
       - name: Create comment - step results
