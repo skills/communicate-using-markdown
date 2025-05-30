@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - start-blog
+    paths:
+      - "day-1.md"
 
 permissions:
   contents: write
