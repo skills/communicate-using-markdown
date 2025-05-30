@@ -1,4 +1,4 @@
-name: Step 3
+name: Step 2
 
 on:
   push:
@@ -13,7 +13,7 @@ permissions:
   issues: write
 
 env:
-  STEP_4_FILE: ".github/steps/4-add-an-image.md"
+  STEP_3_FILE: ".github/steps/3-add-a-code-example.md"
 
 jobs:
   find_exercise:
@@ -47,15 +47,15 @@ jobs:
 
       # START: Check practical exercise
 
-      - name: Check for code block
-        id: check-code-block
+      - name: Check for task list
+        id: check-task-list
         continue-on-error: true
         uses: skills/action-keyphrase-checker@v1
         with:
           text-file: day-1.md
-          keyphrase: "```"
+          keyphrase: " [ ] "
           case-sensitive: false
-          minimum-occurrences: 2
+          minimum-occurrences: 1
 
       - name: Build message - step results
         id: build-message-step-results
@@ -63,11 +63,11 @@ jobs:
         with:
           template-file: exercise-toolkit/markdown-templates/step-feedback/step-results-table.md
           template-vars: |
-            step_number: 3
+            step_number: 2
             passed: ${{ !contains(steps.*.outcome, 'failure') }}
             results_table:
-              - description: "Code block syntax in day-1.md"
-                passed: ${{ steps.check-code-block.outcome == 'success' }}
+              - description: "Task list added to day-1.md file"
+                passed: ${{ steps.check-task-list.outcome == 'success' }}
 
       - name: Create comment - step results
         run: |
@@ -90,7 +90,7 @@ jobs:
         with:
           template-file: exercise-toolkit/markdown-templates/step-feedback/step-finished-prepare-next-step.md
           template-vars: |
-            next_step_number: 4
+            next_step_number: 3
 
       - name: Update comment - step finished
         run: |
@@ -121,7 +121,7 @@ jobs:
       - name: Create comment - add step content
         run: |
           gh issue comment "$ISSUE_URL" \
-            --body-file "$STEP_4_FILE"
+            --body-file "$STEP_3_FILE"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -134,7 +134,7 @@ jobs:
 
       - name: Disable current workflow and enable next one
         run: |
-          gh workflow disable "Step 3"
-          gh workflow enable "Step 4"
+          gh workflow disable "Step 2"
+          gh workflow enable "Step 3"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
