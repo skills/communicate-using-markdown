@@ -13,7 +13,7 @@ permissions:
   issues: write
 
 env:
-  STEP_4_FILE: ".github/steps/4-make-a-task-list.md"
+  STEP_4_FILE: ".github/steps/4-add-an-image.md"
 
 jobs:
   find_exercise:
