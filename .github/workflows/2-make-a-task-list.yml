@@ -13,7 +13,7 @@ permissions:
   issues: write
 
 env:
-  STEP_5_FILE: ".github/steps/3-add-a-code-example.md"
+  STEP_3_FILE: ".github/steps/3-add-a-code-example.md"
 
 jobs:
   find_exercise:
