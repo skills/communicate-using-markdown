@@ -127,7 +127,7 @@ jobs:
         with:
           repository: skills/exercise-toolkit
           path: exercise-toolkit
-          ref: v0.4.0
+          ref: v0.5.0
 
       - name: Create comment - add step content
         run: |
