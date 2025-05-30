@@ -3,7 +3,7 @@
 Let's learn about [code blocks](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#quoting-code) and [syntax highlighting](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks) based on the language.
 
 > [!TIP]
-> Many languages are supported. Check out the full [list of short codes](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml).
+> Many programming languages are supported. Try testing out some other file extension types!
 
 ### Example: Terminal Command
 
