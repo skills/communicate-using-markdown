@@ -1,7 +1,6 @@
-name: Step 0 # Start Exercise
+name: Step 0
 
 on:
-  workflow_dispatch:
   push:
     branches:
       - main
@@ -12,7 +11,7 @@ permissions:
   issues: write
 
 env:
-  STEP_1_FILE: ".github/steps/1-add-headers.md"
+  STEP_1_FILE: ".github/steps/1-add-headings.md"
 
 jobs:
   start_exercise:
