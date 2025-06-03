@@ -24,7 +24,7 @@
 
 ###### This is an `<h6>` heading, which is the smallest
 
-### ⌨️ Activity: Create a mardkown file
+### ⌨️ Activity: Create a markdown file
 
 1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
 
