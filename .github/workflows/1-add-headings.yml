@@ -18,7 +18,7 @@ env:
 jobs:
   find_exercise:
     name: Find Exercise Issue
-    uses: skills/exercise-toolkit/.github/workflows/find-exercise-issue.yml@v0.5.0
+    uses: skills/exercise-toolkit/.github/workflows/find-exercise-issue.yml@v0.6.0
 
   check_step_work:
     name: Check step work
@@ -36,7 +36,7 @@ jobs:
         with:
           repository: skills/exercise-toolkit
           path: exercise-toolkit
-          ref: v0.5.0
+          ref: v0.6.0
 
       - name: Update comment - checking work
         run: |
@@ -50,7 +50,7 @@ jobs:
       - name: Check if day-1.md file exists
         id: check-file-exists
         continue-on-error: true
-        uses: skills/exercise-toolkit/actions/file-exists@v0.5.0
+        uses: skills/exercise-toolkit/actions/file-exists@v0.6.0
         with:
           file: day-1.md
 
@@ -137,7 +137,7 @@ jobs:
         with:
           repository: skills/exercise-toolkit
           path: exercise-toolkit
-          ref: v0.5.0
+          ref: v0.6.0
 
       - name: Create comment - add step content
         run: |
