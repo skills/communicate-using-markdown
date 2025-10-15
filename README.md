@@ -31,7 +31,7 @@ GitHub is about more than code. It’s a platform for software collaboration, an
 
 In this course, you will:
 
-1. Add headers
+[x] 1. Add headers
 2. Add an image
 3. Add a code example
 4. Make a task list
