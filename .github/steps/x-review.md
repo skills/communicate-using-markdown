@@ -15,7 +15,7 @@ Here's a recap of the tasks you've accomplished in this exercise:
 ### What's next?
 
 - Take another [GitHub Skills exercise](https://learn.github.com/skills).
-  - Continue with the [GitHub Pages](https://github.com/skills-dev/github-pages) exercise to share your blog posts as an actual webpage.
+  - Continue with the [GitHub Pages](https://github.com/skills/github-pages) exercise to share your blog posts as an actual webpage.
 - Learn more about [Markdown](https://docs.github.com/github/writing-on-github).
 - Read the GitHub [Getting Started docs](https://docs.github.com/get-started).
 - To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
