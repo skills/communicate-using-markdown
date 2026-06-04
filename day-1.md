@@ -1,5 +1,0 @@
-# DailyLearning
-
-## MorningPlanning
-
-## Review
