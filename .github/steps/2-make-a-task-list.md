@@ -36,7 +36,7 @@ A list is changed to ordered by using any number instead of the list character. 
 
 ### Task List
 
-A task list is extends the unordered list to use check boxes.
+A task list extends the unordered list to use check boxes.
 Add empty brackets `[ ]` for incomplete tasks and filled brackets `[x]` for complete tasks. Note: The empty required space for empty brackets.
 
 ```md
