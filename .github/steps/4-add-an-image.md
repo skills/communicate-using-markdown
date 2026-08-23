@@ -45,7 +45,7 @@ Our blog post is quite simple right now. Let's add some decoration.
 
 1. On the `start-blog` branch, open the `day-1.md` file for editing.
 
-1. Insert an image below the **Morning Planning** level 1 heading.
+1. Insert an image below the **Morning Planning** level 2 heading.
 
    ```md
    ![Cloudy morning](https://octodex.github.com/images/cloud.jpg)
